@@ -20,6 +20,7 @@ setup(
     url='https://github.com/agilgur5/name-of-library',
     author='Anton Gilgur',
     license='Apache-2.0',
+    # https://pypi.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Natural Language :: English',
         'Intended Audience :: Developers',
@@ -44,6 +45,8 @@ setup(
         'Framework :: Django :: 2.1',
     ],
     keywords=('keywords go here'),
+    # Use packages instead if many files / modules
+    # https://docs.python.org/3/distutils/examples.html
     py_modules=['single-file-of-code'],
     python_requires='>=2.7, <4',
     project_urls={  # Optional
